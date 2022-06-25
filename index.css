@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url(/Images/noaa-kcvlb727mn8-unsplash.jpg);
 }
 
 body {
-  font-family: "Lora", serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-image: url("./Images/noaa-kcvlb727mn8-unsplash.jpg");
 }
 
 .container {
@@ -16,4 +16,29 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: contain;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+  margin: 18px 0;
+  font-size: 30px;
+}
+#location {
+  font-size: 50px;
+  font-weight: 750;
+  font-style: italic;
+}
+.desc {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.circle {
+  background-color: black;
+  border-radius: 50px;
+  height: 15px;
+  width: 15px;
+  margin: 0 15px;
 }
