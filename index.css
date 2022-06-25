@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(/Images/noaa-kcvlb727mn8-unsplash.jpg);
+}
+
+body {
+  font-family: "Lora", serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
