@@ -14,7 +14,7 @@ To access this project on your local files, you can clone it using these steps
 
 1. Open your terminal
 2. Use this command to clone `$ git clone
-   3.(https://github.com/Tangusjr/WK2_IP.git)
+   3.(git@github.com:Tangusjr/Phase-1-Capstone-Project.git)
 3. This will clone the repositoty into your local folder
    {Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
 
