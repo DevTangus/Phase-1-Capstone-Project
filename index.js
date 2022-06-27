@@ -98,8 +98,8 @@ function showWeatherData(data) {
     `;
 
   let otherDayForcast = "";
-  data.daily.forEach((day, idx) => {
-    if (idx == 0) {
+  data.daily.forEach((day, index) => {
+    if (index == 0) {
       currentTempEl.innerHTML = `
             <img src="http://openweathermap.org/img/wn//${
               day.weather[0].icon
